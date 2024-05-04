@@ -1,0 +1,367 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Military Period/RISCV_Single_Cycle_Implementation/RISCV_SC_Final_model
+T_opt
+!s110 1712909704
+VQW>hdH5ndm?]U:kfNT9KJ0
+Z1 04 12 4 work top_RISCV_tb fast 0
+=1-f678708fc9bc-6618ed85-358-4764
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.6c;65
+R0
+T_opt1
+!s110 1712909829
+V_]BQn=mA?H<zP>HR5ZO^42
+R1
+=1-f678708fc9bc-6618ee03-191-4a58
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1712911939
+V^lCbj=[=]gGb74U``@QFB0
+R1
+=1-f678708fc9bc-6618f63e-1e1-1eac
+R2
+R3
+n@_opt2
+R4
+R0
+T_opt3
+!s110 1712912289
+Venn;T5f3a;HQ[h6<J9DI82
+R1
+=1-f678708fc9bc-6618f79f-3b0-365c
+R2
+R3
+n@_opt3
+R4
+R0
+T_opt4
+!s110 1712913301
+VFZ8:mE[ihAI_@No=TR>V33
+R1
+=1-f678708fc9bc-6618fb92-174-c40
+R2
+R3
+n@_opt4
+R4
+R0
+vadder
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 D8?cb1:G6U7dkS4HP041F1
+IhHSXaWX;LkCM1g9TQdfln1
+R0
+w1712908402
+8adder.v
+Fadder.v
+L0 1
+Z6 OL;L;10.6c;65
+!s108 1712908428.000000
+!s107 adder.v|
+!s90 adder.v|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vAlu
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 53:[A[DdILB6Tl1U`>OJj1
+IGVh:@DC:zRm<L1KQ2QTdz3
+R0
+w1712908528
+8Alu.v
+FAlu.v
+L0 1
+R6
+!s108 1712908535.000000
+!s107 Alu.v|
+!s90 Alu.v|
+!i113 0
+R7
+R3
+n@alu
+vAlu_decoder
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 g_U`5WOh1EfT30c1cGn]G2
+ITe?^_fBGOC>JNa9mQ<kDZ3
+R0
+w1712908485
+8alu_decoder.v
+Falu_decoder.v
+L0 1
+R6
+!s108 1712908494.000000
+!s107 alu_decoder.v|
+!s90 alu_decoder.v|
+!i113 0
+R7
+R3
+n@alu_decoder
+vcontrol_unit
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 g0>]O@Lz@O=APm=b4PPD23
+IahgUCQNL]4^zQUjTK::>=3
+R0
+w1712908579
+8control_unit.v
+Fcontrol_unit.v
+L0 1
+R6
+!s108 1712908590.000000
+!s107 control_unit.v|
+!s90 control_unit.v|
+!i113 0
+R7
+R3
+vdata_ram
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 0Z;4]kMEV<T`0l@jVU3]?2
+IhI@M6<3eeSmBeOV0ze;750
+R0
+w1712908789
+8data_ram.v
+Fdata_ram.v
+L0 1
+R6
+!s108 1712908803.000000
+!s107 data_ram.v|
+!s90 data_ram.v|
+!i113 0
+R7
+R3
+vdatapath
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 IP<MjD^CdYjOC;>LO2Qk;3
+IeVczn9@?Y9D?cefjdZbZ;1
+R0
+w1712908838
+8datapath.v
+Fdatapath.v
+L0 1
+R6
+!s108 1712908846.000000
+!s107 datapath.v|
+!s90 datapath.v|
+!i113 0
+R7
+R3
+vflip_flop
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 X3?aUa2GUQ=P3jLE1lDX[0
+IoE[OMMzgVV[^R[fB[J=S[2
+R0
+w1712908879
+8flipflop.v
+Fflipflop.v
+L0 1
+R6
+!s108 1712908889.000000
+!s107 flipflop.v|
+!s90 flipflop.v|
+!i113 0
+R7
+R3
+vinstr_rom
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]UTHLI@USMiinV:4LA2;60
+IzNkE@X7cgkZFS6kec?Med2
+R0
+w1712909312
+8instr_rom.v
+Finstr_rom.v
+L0 1
+R6
+!s108 1712909319.000000
+!s107 instr_rom.v|
+!s90 instr_rom.v|
+!i113 0
+R7
+R3
+vmain_decoder
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 6=^`L2HI6[zkk@HCj7:H@0
+I5gl>oO2K`RDQl8J0_kYO13
+R0
+w1712913069
+8main_decoder.v
+Fmain_decoder.v
+L0 1
+R6
+!s108 1712913078.000000
+!s107 main_decoder.v|
+!s90 main_decoder.v|
+!i113 0
+R7
+R3
+vmux2x1
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 W]?7`F7V1h6HAja3Oh5=d1
+Iln;T@gEcBdFMO;oH:dhhl0
+R0
+w1712909402
+8mux2x1.v
+Fmux2x1.v
+L0 1
+R6
+!s108 1712909410.000000
+!s107 mux2x1.v|
+!s90 mux2x1.v|
+!i113 0
+R7
+R3
+vmux3x1
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 PkSPMDCO44E;z]LBk]ekF0
+I0@?bn;cHeDTTKzX^<;;262
+R0
+w1712909430
+8mux3x1.v
+Fmux3x1.v
+L0 1
+R6
+!s108 1712909438.000000
+!s107 mux3x1.v|
+!s90 mux3x1.v|
+!i113 0
+R7
+R3
+vReg_file
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 X9lbJY[VW?Sgl3I^Q5Yzi1
+I;L7X<Amcjo7ci^k<4a4`?0
+R0
+w1712909490
+8reg_file.v
+Freg_file.v
+L0 1
+R6
+!s108 1712909499.000000
+!s107 reg_file.v|
+!s90 reg_file.v|
+!i113 0
+R7
+R3
+n@reg_file
+vSign_ext
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 N[@OElT<f<EcbUD@ezOfT3
+IOFHGe`ViEb>M]QQIiYYTY0
+R0
+w1712909523
+8sign_extent.v
+Fsign_extent.v
+L0 1
+R6
+!s108 1712909532.000000
+!s107 sign_extent.v|
+!s90 sign_extent.v|
+!i113 0
+R7
+R3
+n@sign_ext
+vtop_RISCV
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 f<I3ebe_IdSJc:cESX98@3
+I6^gQ5IQ@3UNFd0J6nK<>^3
+R0
+w1712912172
+8top_RISCV.v
+Ftop_RISCV.v
+L0 1
+R6
+!s108 1712912180.000000
+!s107 top_RISCV.v|
+!s90 top_RISCV.v|
+!i113 0
+R7
+R3
+ntop_@r@i@s@c@v
+vtop_RISCV_tb
+!s110 1714820529
+!i10b 1
+!s100 odidCi<D04VPB8mNogPWJ1
+I?cjFcZZYA_7NQE6jo^N]H3
+R5
+R0
+w1712913267
+8top_RISCV_tb.v
+Ftop_RISCV_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1714820528.000000
+!s107 top_RISCV_tb.v|
+!s90 top_RISCV_tb.v|
+!i113 0
+R7
+R3
+ntop_@r@i@s@c@v_tb
